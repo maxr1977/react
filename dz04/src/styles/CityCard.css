@@ -1,0 +1,21 @@
+.city-card {
+  padding: 40px; 
+}
+
+.city-card h3 {
+  padding: 20px 0;
+  text-align: center
+}
+.city-card img {
+  display: block;
+  margin: auto;
+}
+.city-card p {
+  padding: 20px 0;
+  
+}
+
+.city-card ul {
+  padding: 20px 60px;
+  
+}

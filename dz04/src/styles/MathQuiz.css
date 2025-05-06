@@ -1,0 +1,16 @@
+.score h2 {
+padding: 10px 0;
+}
+
+.score h3 {
+padding: 10px 0 20px 0;
+}
+
+input {
+ padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
