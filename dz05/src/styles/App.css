@@ -1,0 +1,65 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #0c0417;
+  color: #1ed760;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 1707px;
+  width: 100%;
+  margin: auto;
+  padding: 0 clamp(15px, 5vw, 35px);
+}
+
+.header {
+  margin-top: clamp(20px, 7vw, 55px);
+}
+
+.main-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: clamp(50px, 12vw, 112px);
+  gap: 32px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: 3px solid #1ed760;
+  border-radius: clamp(30px, 8vw + 1rem, 65px);
+  /* padding: 36px 57px 41px 57px; */
+  padding: clamp(15px, 6vw, 36px) clamp(30px, 8vw, 57px) clamp(16px, 6vw, 41px) clamp(30px, 8vw, 57px);
+}
+
+h1 {
+  font-size: clamp(50px, 6vw + 1rem, 64px);
+  text-align: center;
+}
+
+p {
+  font-size: clamp(20px, 1.5vw + 1rem, 32px);
+  text-align: center;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-button svg path {
+  transition: fill 0.3s ease-in-out;
+}
+
+.icon-button:hover {
+  filter: drop-shadow(0 25px 25px rgba(16, 108, 207, 0.589));
+  transform: translateY(-10px);
+}
+
+.icon-button:hover svg path {
+  fill: #1181f1;
+}
