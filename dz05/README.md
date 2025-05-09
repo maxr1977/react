@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# React домашнее задание 5
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Задание 1: Создание простого React приложения по макету в Figma.
 
-In the project directory, you can run:
 
-### `npm start`
+Цель задания
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Цель данного задания - разработать приложение на React, внешний вид которого полностью соответствует предложенному макету в Figma. Это задание поможет улучшить навыки работы с React, а также с популярным инструментом дизайна.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Шаги выполнения 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Шаг 1: Создание нового React приложения
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Откройте терминал и создайте новый проект React при помощи create-react-app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Шаг 2: Ознакомление с макетом Figma
 
-### `npm run eject`
+1. Изучите предоставленный макет в Figma. Обратите внимание на компоновку, размеры, цвета, шрифты и другие визуальные детали.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Если в макете используются специфические шрифты, изображения или элементы оформления, экспортируйте их.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Шаг 3: Подготовка проекта
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Удалите все ненужные файлы из проекта (например, логотип React и стили, связанные с ним).
 
-## Learn More
+2. Структурируйте ваш проект, создав папки для компонентов, стилей и изображений:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   - src/components - для React компонентов.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   - src/styles - для CSS файлов.
 
-### Code Splitting
+   - src/assets - для изображений.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Шаг 4: Верстка компонентов
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Создайте базовые React компоненты, на основе разделения макета на части.
 
-### Making a Progressive Web App
+2. Примените стили согласно макету, используя CSS или предпочтительный вами CSS-препроцессор.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Шаг 5: Адаптивность и интерактивность
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Убедитесь, что ваше приложение корректно отображается на различных устройствах. Задайте медиа-запросы при необходимости.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Шаг 6: Тестирование
 
-### `npm run build` fails to minify
+1. Проведите тестирование компонентов на соответствие макету. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Проверьте работоспособность приложения на разных браузерах и устройствах.
+
+
+![скриншот](./Gifka.gif)
+
+![скриншот](./img01.png)
+
+![скриншот](./img02.png)
+
+
+
