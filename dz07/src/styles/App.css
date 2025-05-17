@@ -1,0 +1,33 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #b881eb;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #b172ec;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #935bc7;
+}
+
+.app-container {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
