@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffe0e0, #e0cfff);
+  min-height: 100vh;
+}
+
+.App {
+  padding: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+li h2 a {
+  text-decoration: none;
+  color: #2017a7;
+}
+
+li h2 a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}

@@ -1,0 +1,10 @@
+.activeLink {
+  text-decoration: none;
+  color: #007bff;
+  cursor: default;
+}
+
+nav ul li a {
+  color: #2017a7;
+  font-weight: bold;
+}
