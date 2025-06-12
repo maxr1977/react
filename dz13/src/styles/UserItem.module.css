@@ -1,0 +1,11 @@
+.userItem {
+  padding: 8px 12px;
+  margin: 4px 0;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+.userItem:hover {
+  background-color: #e0e0e0;
+}
